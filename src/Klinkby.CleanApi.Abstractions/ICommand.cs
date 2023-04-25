@@ -1,4 +1,4 @@
-﻿namespace Clean;
+﻿namespace Klinkby.CleanApi;
 
 /// <summary>
 /// Define an executable command

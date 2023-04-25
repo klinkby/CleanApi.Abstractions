@@ -7,36 +7,37 @@
 		<RootNamespace>Klinkby.CleanApi</RootNamespace>
 	</PropertyGroup>
 
-  <PropertyGroup>
-	<PackageVersion>1.0.1</PackageVersion>
-	<TargetFrameworks>netstandard2.1</TargetFrameworks>
-	<AssemblyName>Klinkby.CleanApi.Abstractions</AssemblyName>
-	<AssemblyTitle>Klinkby.CleanApi.Abstractions</AssemblyTitle>
-	<PackageId>Klinkby.CleanApi.Abstractions</PackageId>
-	<Authors>@klinkby</Authors>
-    <RepositoryUrl>https://github.com/klinkby/CleanApi.Abstractions</RepositoryUrl>
-<!--    <PackageIcon>CleanApi.png</PackageIcon> -->
-    <PackageTags>Clean Api Abstractions AspNet</PackageTags>
-    <Description>Abstractions for Clean Api</Description>
-  </PropertyGroup>
-
-  <PropertyGroup>
-    <GenerateDocumentationFile>true</GenerateDocumentationFile>
-  </PropertyGroup>
-
-  <PropertyGroup>
-      <PackageLicenseFile>LICENSE</PackageLicenseFile>
-      <PackageReadmeFile>README.md</PackageReadmeFile>
-  </PropertyGroup>
-
-  <ItemGroup>
-      <None Include="../../LICENSE" Pack="true" PackagePath=""/>
-      <None Include="../../README.md" Pack="true" PackagePath=""/>
-<!--      <None Include="../../CleanApi.png" Pack="true" PackagePath="" /> -->
-  </ItemGroup>
+	<PropertyGroup>
+		<PackageVersion>1.0.2</PackageVersion>
+		<TargetFrameworks>netstandard2.1</TargetFrameworks>
+		<AssemblyName>Klinkby.CleanApi.Abstractions</AssemblyName>
+		<AssemblyTitle>Klinkby.CleanApi.Abstractions</AssemblyTitle>
+		<PackageId>Klinkby.CleanApi.Abstractions</PackageId>
+		<Authors>@klinkby</Authors>
+		<RepositoryUrl>https://github.com/klinkby/CleanApi.Abstractions</RepositoryUrl>
+		<!--    <PackageIcon>CleanApi.png</PackageIcon> -->
+		<PackageTags>Clean Api Abstractions AspNet</PackageTags>
+		<Description>Abstractions for Clean A</Description>
+	</PropertyGroup>
 
 	<PropertyGroup>
-		<!-- https://devblogs.microsoft.com/nuget/enable-repeatable-package-restores-using-a-lock-file/ -->
+		<GenerateDocumentationFile>true</GenerateDocumentationFile>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<PackageLicenseFile>LICENSE</PackageLicenseFile>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Include="../../LICENSE" Pack="true" PackagePath="" />
+		<None Include="../../README.md" Pack="true" PackagePath="" />
+		<!--      <None Include="../../CleanApi.png" Pack="true" PackagePath="" /> -->
+	</ItemGroup>
+
+	<PropertyGroup>
+		<!--
+		https://devblogs.microsoft.com/nuget/enable-repeatable-package-restores-using-a-lock-file/ -->
 		<RestorePackagesWithLockFile>true</RestorePackagesWithLockFile>
 	</PropertyGroup>
 </Project>
